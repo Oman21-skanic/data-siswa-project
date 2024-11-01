@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form-siswa">
+        <input type="text" id="absen" placeholder="Absen" required>
+        <input type="text" id="nama" placeholder="Nama" required>
+        <input type="text" id="asalSekolah" placeholder="Asal Sekolah" required>
+        <button type="submit">Simpan</button>
+    </form>
+
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Absen</th>
+                <th>Nama</th>
+                <th>Asal Sekolah</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data siswa akan diisi di sini -->
+        </tbody>
+    </table>
+
+    <script src="script.js" defer></script> <!-- Pastikan script di-load di akhir -->
+</body>
+</html>
